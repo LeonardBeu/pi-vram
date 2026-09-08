@@ -1,0 +1,16 @@
+{
+  "name": "pi-vram-extension",
+  "version": "0.1.0",
+  "description": "Pi coding agent extension: shows current GPU VRAM usage in the footer (e.g. VRAM 10.8GB/16.3GB)",
+  "keywords": ["pi-package"],
+  "license": "MIT",
+  "files": [
+    "extensions"
+  ],
+  "peerDependencies": {
+    "@earendil-works/pi-coding-agent": "*"
+  },
+  "pi": {
+    "extensions": ["./extensions"]
+  }
+}
